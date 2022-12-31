@@ -3,5 +3,5 @@ export function Home() {
     <div>
       <h1 className="text-lg">Home</h1>
     </div>
-  )
+  );
 }
