@@ -36,6 +36,16 @@
     ],
     "@typescript-eslint/no-non-null-assertion": "off",
     "spaced-comment": ["warn", "always", { "markers": ["/"] }],
+    "no-var": "error",
+    "prefer-const": "warn",
+    "no-useless-rename": "warn",
+    "no-duplicate-imports": "warn",
+    "@typescript-eslint/no-inferrable-types": "warn",
+    "@typescript-eslint/naming-convention": [
+      "warn",
+      { "selector": "typeAlias", "format": ["PascalCase"] },
+      { "selector": "interface", "format": ["PascalCase"] }
+    ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
     "react/jsx-curly-brace-presence": "warn",
@@ -44,17 +54,7 @@
     "react/self-closing-comp": "warn",
     "react/jsx-fragments": "warn",
     "react/hook-use-state": "warn",
-    "@typescript-eslint/no-inferrable-types": "warn",
-    "@typescript-eslint/naming-convention": [
-      "warn",
-      { "selector": "typeAlias", "format": ["PascalCase"] },
-      { "selector": "interface", "format": ["PascalCase"] }
-    ],
-    "no-var": "error",
-    "prefer-const": "warn",
     "import/no-cycle": "error",
-    "no-useless-rename": "warn",
-    "no-duplicate-imports": "warn",
     "tailwindcss/no-custom-classname": "off",
     "import/newline-after-import": ["warn", { "count": 1 }],
     "import/order": [
