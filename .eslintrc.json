@@ -54,8 +54,8 @@
     "react/self-closing-comp": "warn",
     "react/jsx-fragments": "warn",
     "react/hook-use-state": "warn",
-    "import/no-cycle": "error",
     "tailwindcss/no-custom-classname": "off",
+    "import/no-cycle": "error",
     "import/newline-after-import": ["warn", { "count": 1 }],
     "import/order": [
       "warn",
